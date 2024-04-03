@@ -1,0 +1,71 @@
+/* Estilos para el letrero de conexión */
+.App h2 {
+  text-align: center; /* Centra el texto horizontalmente */
+  margin-bottom: 20px; /* Añade espacio en la parte inferior */
+  font-size: 24px; /* Tamaño de fuente más grande */
+  color: #333; /* Color de texto */
+  padding: 10px 20px; /* Añade espacio alrededor del texto */
+  border-radius: 10px; /* Bordes redondeados */
+  background-color: #f5f5f5; /* Color de fondo */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilos para la lista de mensajes */
+.UlMensajes {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los elementos horizontalmente */
+  justify-content: center; /* Centra los elementos verticalmente */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  width: 80%;
+}
+
+/* Estilos para los elementos de la lista de mensajes */
+.LiMensaje {
+  background-color: #fc0808; /* Color de fondo del mensaje */
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Alineación del texto al centro */
+  max-width: 70%; /* Ancho máximo del mensaje */
+}
+
+/* Estilos para el campo de entrada de texto */
+input[type="text"] {
+  width: calc(60% - 20px);
+  padding: 8px;
+  border: 2px solid #4CAF50;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-right: auto; /* Alinear el margen derecho */
+  margin-left: auto; /* Alinear el margen izquierdo */
+  display: block; /* Convertir en bloque para que el margen automático funcione */
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* Estilos para el botón de enviar */
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 15px 30px; /* Aumenta el padding para hacer el botón más grande */
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+  display: block; /* Convertir en bloque para centrar horizontalmente */
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+
+button:hover {
+  background-color: #45a049;
+}
